@@ -1,0 +1,53 @@
+# .gitignore
+
+# Ignore Python build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.spec
+
+# Ignore IDE and editor files
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+*.py~
+*.cache
+*.iml
+*.iml.*
+*.pyc
+*.pyo
+*.pyd
+*.lastBuildState
+*.user
+*.suo
+*.userosscache
+*.dbmdl
+*.dbproj.schemaview
+*.pfx
+*.publishsettings
+
+# Ignore OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore test artifacts
+tests/*.pyc
+tests/__pycache__/
+
+# Ignore setup artifacts
+setup.py
+requirements.txt
