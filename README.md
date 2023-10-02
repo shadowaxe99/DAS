@@ -17,7 +17,8 @@ To install the application, follow the instructions in the `setup.py` file.
 
 1. Run the `main.py` script.
 2. Input the GitHub repository link into the text field.
-3. The application will fetch the repository code, format it, and compile it into a PDF document.
+3. Click the 'Convert to PDF' button.
+4. The application will fetch the repository code, format it, and compile it into a PDF document.
 
 ## Contributing
 
